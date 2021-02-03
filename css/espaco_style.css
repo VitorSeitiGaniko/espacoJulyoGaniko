@@ -1,0 +1,230 @@
+body {
+    font-family: 'Questrial', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  /* CABEÇALHO E MENU */
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff3ca;
+    padding: 15px 0;
+    z-index: 10;
+  }
+  
+  .header_menu {
+    text-align: right;
+  }
+  
+  .header_menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 30px 0;
+  }
+  
+  .header_menu ul li a {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #2b2b2b;
+    font-weight: 700;
+    padding: 10px 0;
+  }
+  
+  .header_menu ul li a:hover {
+    color: #c9b87d;
+  }
+  
+  .spa_logo {
+    width: 115%;
+  }
+  
+  /* Conteúdo */
+
+  .espaco{
+    position: relative;
+    top: 117px;  
+    margin-bottom: 120px;
+  }
+
+  .espaco_titulo{
+    background-color: #bda85e;
+    height: 100%;
+    padding: 35px 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+  .espaco_texto{
+    line-height: 25px;
+    word-spacing: 5px;
+    margin-left: 10%;
+    padding: 50px 0;
+    margin-bottom: 50px;
+  }
+
+  .espaco_imagem{
+    display: block;
+    margin: -75px auto 0;
+    width: 100%;
+  }
+
+  .espaco_imagem_principal{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+
+  .espaco_imagem_meio{
+    width: 100%;
+    position: relative;
+    top: -250px;
+    left: 321px;
+    margin-bottom: -186px;
+  }
+
+  .whatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    width: 7%;
+    z-index: 10;
+  }
+
+ /*Footer */
+  footer {
+    background-color: #fff3ca;                                                                                                              
+  }
+  
+  .rodape{
+    padding: 40px 0;
+  }
+  
+  .footer_text {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+  }
+  
+  .footer_contato_title {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  
+  .footer_redes_sociais li{
+    display: inline-block;   
+  }
+
+  .criador{
+    text-align: left;    
+    color: #808080;
+    margin-top: 150px;
+    margin-left: 10px;
+  }
+  
+  
+  @media only screen and (min-width: 788px) and (max-width: 979px){
+    .whatsapp{
+      right: 10px;     
+      width: 8%;
+    }
+
+    .spa_logo{      
+      width: 130%;
+    }
+
+    .espaco_imagem_meio{
+      left: 256px;
+    }
+  }
+  
+  @media only screen and (max-width: 787px){
+    .header{
+      position: relative;
+      padding: 0px 0px 15px 0px;
+    }
+  
+    .header_menu{
+      text-align: justify;
+    }
+    
+    .spa_logo{
+      display: block;
+      margin: 10px auto;
+      width: 40%;
+    }
+  
+    .header_menu ul li{
+      margin-left: 0;
+      padding: 6px 0;
+    }
+  
+    .header_menu ul li:last-child{
+      margin-left: 90px;
+    }
+
+    .espaco{
+      top: 0;
+      margin-bottom: 0;
+    }
+
+    .espaco_titulo{
+      font-size: 18px;
+    }
+
+    .espaco_imagem_principal{
+      width: 100%;
+    }
+
+    .espaco_texto{
+      line-height: 25px;
+      word-spacing: 2px;
+      margin: 0;
+      padding-top: 50px;  
+      font-size: 14px;
+    }
+
+    .espaco_imagem {
+      display: block;
+      margin: 0 0 30px 0;
+      width: 100%;
+    }
+
+    .espaco_imagem_meio {        
+      top: 0;
+      left: 0;
+      margin-bottom: 30px;
+    }
+  
+    .whatsapp {
+      right: 1px;      
+      width: 15%;
+    }
+
+    .footer_text{
+      font-size: 14px;
+    }
+
+    .footer_contato_title{
+      font-size: 16px;
+      margin-top: 20px;
+      font-weight: 700;
+    }
+
+    .footer_contato_items{
+      font-size: 14px;
+    }
+  }
