@@ -69,16 +69,25 @@ li {
   padding: 40px;
 }
 
+.item_menu{
+  width: 440px;
+}
+
+.item_menu:last-of-type{
+  margin-left: 30px;
+}
+
 .titulo_imagem {
   font-size: 20px;
-  font-weight: 500;
-  font-family: "Open Sans";
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   text-align: center;
   background: #bda85e;
   border-radius: 45px 45px 0px 0px;
   margin-bottom: 0px;
   padding: 15px;
+  width: 100%;
 }
 
 /* .titulo_imagem:after {
@@ -92,7 +101,7 @@ li {
 
 .lista_unidades li img {
   width: 100%;
-  height: 240px;
+  height: 330px;
   border-radius: 0px 0px 10px 10px;
 }
 
@@ -102,17 +111,18 @@ li {
 }
 
 .titulo_day_spa {
-  font-size: 26px;
-  font-weight: 600;
-  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
+  text-transform: uppercase;
   padding: 20px;
 }
 
 .titulo_day_spa::after {
   content: "";
   display: block;
-  width: 120px;
+  width: 165px;
   height: 2px;
   background: #000000;
   margin: 4px auto;
@@ -120,8 +130,10 @@ li {
 
 .texto_day_spa {
   text-align: center;
-  font-size: 12px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
   margin-bottom: 10px;
+  
 }
 
 .img_day_spa_normal {
@@ -139,13 +151,15 @@ li {
 }
 
 .call p {
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 20px;
+  font-family: 'Questrial', sans-serif;
 }
 
 .button {
   border: solid 2px #000000;
   padding: 2px 5px;
+  font-family: 'Questrial', sans-serif;
 }
 
 .button:hover {
@@ -154,7 +168,7 @@ li {
 }
 
 /* SPA IN COMPANY */
-.spa_in_company {
+.artigos {
   width: 400px;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -162,18 +176,20 @@ li {
   margin-right: auto;
 }
 
-.spa_in_company a {
+.artigos a {
   text-align: center;
 }
 
-.spa_in_company a img {
-  width: 100%;
+.artigos_imagem {
+  width: 80%;
+  height: 390px;
+  margin-left: 40px;
 }
 
-.titulo_imagem__inCompany {
+.artigos_titulo {
   font-size: 20px;
-  font-weight: 500;
-  font-family: "Open Sans";
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   text-align: center;
   background: #bda85e;
@@ -182,6 +198,7 @@ li {
   padding: 15px;
   width: 100%;
 }
+
 
 .whatsapp{
   position: fixed;
@@ -232,6 +249,22 @@ footer {
   .spa_logo{      
     width: 130%;
   }
+
+  .titulo_imagem {
+    font-size: 16px;
+  }
+
+  .item_menu{
+    width: 364px;
+  }
+
+  .item_menu:last-of-type{
+    margin-left: 10px;
+  }
+
+  .lista_unidades li img {
+    height: 280px;
+  }
 }
 
 @media only screen and (max-width: 787px){
@@ -261,7 +294,43 @@ footer {
 
   .banner{
     margin-top: 5px;
+    width: 400px;
   }
+
+  .banner_imagem{
+    height: 220px;
+  }
+
+  .titulo_imagem {
+    font-size: 16px;
+  }
+
+  .item_menu{
+    width: 300px;
+  }
+
+  .item_menu:last-of-type{
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .lista_unidades li img {
+    height: 280px;
+  }
+
+  .artigos {
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .artigos_imagem {
+    width: 70%;
+    height: 330px;
+    margin-left: 50px;
+}
 
   .whatsapp {
     right: 1px;      

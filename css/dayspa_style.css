@@ -50,8 +50,15 @@ body {
   
   /* Conteúdo */
 
+  .dayspa_tipo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+
   .servico_conteudo{
-    margin: 220px 0px 100px 0px;  
+    margin: 160px 0px 100px 0px;  
   }
 
   .servico_item{
@@ -77,19 +84,31 @@ body {
   .servico_texto{
     margin-top: -5px;
     background-color: #c9b87d;
-    padding: 20px 10px;
+    padding: 20px 25px;
     border-radius: 0 0 5px 5px;
-  }
+    line-height: 20px;
+  }  
 
   .dayspa_lista{
     list-style: disc;
+  }
+
+  .info_valor_tempo{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;    
+  }
+
+  .info_valor_tempo:first-of-type {
+    margin-top: 10px;
   }
 
   .whatsapp{
     position: fixed;
     right: 120px;
     bottom: 50px;
-    width: 7%;
+    width: 10%;
+    border-radius: 15px;
   }
 
   /*Footer */

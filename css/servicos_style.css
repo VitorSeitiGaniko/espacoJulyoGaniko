@@ -51,7 +51,7 @@ body {
   /* Conteúdo */
 
   .servico_conteudo{
-    margin: 220px 0px 100px 0px;  
+    margin: 160px 0px 100px 0px;  
   }
 
   .servico_item{
@@ -85,7 +85,8 @@ body {
     position: fixed;
     right: 120px;
     bottom: 50px;
-    width: 7%;
+    width: 10%;
+    border-radius: 15px;
   }
 
   /*Footer */
