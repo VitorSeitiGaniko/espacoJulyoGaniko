@@ -157,7 +157,7 @@ body {
     }
   
     .header_menu ul li:last-child{
-      margin-left: 90px;
+      margin-left: 240px;
     }
   
     .servico_conteudo{
@@ -168,13 +168,18 @@ body {
       margin: 0 0 50px 0 ;
     }
 
+    .servico_item:last-child {
+      margin-left: 0;
+    }
+
     .servico_imagem{
       height: 250px;
     }
 
     .whatsapp {
       right: 1px;      
-      width: 15%;
+      width: 30%;
+      z-index: 10;
     }
 
     .footer_text{
@@ -189,5 +194,9 @@ body {
 
     .footer_contato_items{
       font-size: 14px;
+    }
+
+    .criador{
+       margin-top: 90px;
     }
   }

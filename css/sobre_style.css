@@ -55,6 +55,7 @@ body {
     text-align: center;
     font-family: 'Poiret One', cursive;
     font-weight: 700;
+    line-height: 25px;
   }
 
   .blog_conteudo{
@@ -194,7 +195,7 @@ body {
     }
   
     .header_menu ul li:last-child{
-      margin-left: 90px;
+      margin-left: 240px;
     }
 
     .introducao{
@@ -216,6 +217,7 @@ body {
     .whatsapp {
       right: 1px;      
       width: 15%;
+      z-index: 10;
     }
 
     .footer_text{
@@ -230,6 +232,10 @@ body {
 
     .footer_contato_items{
       font-size: 14px;
+    }
+
+    .criador{
+      margin-top: 90px;
     }
 
   }

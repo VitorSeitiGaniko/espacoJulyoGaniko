@@ -151,7 +151,7 @@ li {
 }
 
 .call p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 20px;
   font-family: 'Questrial', sans-serif;
 }
@@ -289,16 +289,20 @@ footer {
   }
 
   .header_menu ul li:last-child{
-    margin-left: 90px;
+    margin-left: 240px;
   }
 
   .banner{
     margin-top: 5px;
-    width: 400px;
+    width: 100%;
   }
 
   .banner_imagem{
-    height: 220px;
+    height: 180px;
+  }
+
+  .conteudo{
+    padding: 10px 0;
   }
 
   .titulo_imagem {
@@ -307,6 +311,7 @@ footer {
 
   .item_menu{
     width: 300px;
+  
   }
 
   .item_menu:last-of-type{
@@ -316,6 +321,14 @@ footer {
 
   .lista_unidades li img {
     height: 280px;
+  }
+
+  .texto_day_spa {
+    font-size: 16px;
+  }
+
+  .img_day_spa_normal {
+    height: 200px;
   }
 
   .artigos {
@@ -335,6 +348,7 @@ footer {
   .whatsapp {
     right: 1px;      
     width: 15%;
+    z-index: 10;
   }
 
   .footer_text{
