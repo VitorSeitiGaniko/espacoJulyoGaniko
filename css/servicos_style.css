@@ -32,6 +32,14 @@
     border-radius: 0 0 5px 5px;
   }
 
+  .whatsapp{
+    position: fixed;
+    right: 120px;
+    bottom: 50px;
+    width: 10%;
+    border-radius: 15px;
+  }
+
  
   
   @media only screen and (min-width: 788px) and (max-width: 979px){
@@ -57,5 +65,11 @@
     .servico_imagem{
       height: 250px;
     }
+
+    .whatsapp {
+      right: 1px;
+      width: 30%;
+      z-index: 10;
+  }
 
   }

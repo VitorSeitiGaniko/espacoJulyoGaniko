@@ -46,6 +46,16 @@
     margin-bottom: -186px;
   }
 
+  .ultima_linha_imagens{
+    margin-top: 80px;
+  }
+
+  .in_company_imagem_ultima{
+    width: 450px;
+    display: block;
+    margin: 30px auto;
+  }
+
   
   
   @media only screen and (min-width: 788px) and (max-width: 979px){
