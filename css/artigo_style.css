@@ -25,15 +25,8 @@
 
   .artigo_imagem{
     display: block;
-    width: 40%; 
+    width: 50%; 
     margin: 50px auto 0;
-  }
-
-  .whatsapp{
-    position: fixed;
-    right: 120px;
-    bottom: 50px;
-    width: 7%;
   }
 
  
