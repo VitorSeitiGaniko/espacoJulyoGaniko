@@ -57,9 +57,10 @@
     cursor: pointer;
   }
 
-  
-  
-  
+  .unidades_botao:hover{
+    color: #c9b87d;
+  }  
+    
   @media only screen and (min-width: 788px) and (max-width: 979px){
     .unidades_item img{
       height: 260px;
