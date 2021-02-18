@@ -1,90 +1,82 @@
+.servico_conteudo{
+  margin: 160px 0px 100px 0px;  
+}
 
-  /* Conteúdo */
-
-  .servico_conteudo{
-    margin: 160px 0px 100px 0px;  
-  }
-
-  .servico_item{
-    margin: 20px 10px 40px 10px;
-  }
+.servico_item{
+  margin: 20px 10px 40px 10px;
+}
 
   /* .servico_item:last-child{
     margin-left: 11px;
   } */
 
-  .servico_titulo{
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
+.servico_titulo{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.servico_imagem{
+  width: 100%;
+  height: 300px;
+  border-radius: 5px 5px 0 0;
+}
+
+.servico_texto{
+  margin-top: -5px;
+  background-color: #c9b87d;
+  padding: 15px 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.servico_botao{
+  display: block;
+  margin: 5px 150px;
+  padding: 5px 0px;
+  background-color: #FFF8DF;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.servico_botao:hover{
+  color: #c9b87d;
+}
+
+.whatsapp{
+  position: fixed;
+  right: 120px;
+  bottom: 50px;
+  width: 10%;
+  border-radius: 15px;
+}
+
+@media only screen and (min-width: 788px) and (max-width: 979px){
+
+}
+  
+@media only screen and (max-width: 787px){
+  .servico_conteudo{
+    margin: 30px 0 0 0;
+  }
+
+  .servico_item{
+    margin: 0 0 50px 0 ;
+  }
+
+  .servico_item:last-child {
+    margin-left: 0;
   }
 
   .servico_imagem{
-    width: 100%;
-    height: 300px;
-    border-radius: 5px 5px 0 0;
+    height: 250px;
   }
 
-  .servico_texto{
-    margin-top: -5px;
-    background-color: #c9b87d;
-    padding: 15px 10px;
-    border-radius: 0 0 5px 5px;
+  .whatsapp {
+    right: 1px;
+    width: 30%;
+    z-index: 10;
   }
-
-  .servico_botao{
-    display: block;
-    margin: 0 auto;
-    padding: 5px 20px;
-    background-color: #FFF8DF;
-    border: none;
-    border-radius: 3px;
-    font-size: 14px;    
-    cursor: pointer;
-  }
-
-  .servico_botao:hover{
-    color: #c9b87d;
-  }
-
-  .whatsapp{
-    position: fixed;
-    right: 120px;
-    bottom: 50px;
-    width: 10%;
-    border-radius: 15px;
-  }
-
- 
-  
-  @media only screen and (min-width: 788px) and (max-width: 979px){
-    
-
-  }
-  
-  @media only screen and (max-width: 787px){
-    
-  
-    .servico_conteudo{
-      margin: 30px 0 0 0;
-    }
-
-    .servico_item{
-      margin: 0 0 50px 0 ;
-    }
-
-    .servico_item:last-child {
-      margin-left: 0;
-    }
-
-    .servico_imagem{
-      height: 250px;
-    }
-
-    .whatsapp {
-      right: 1px;
-      width: 30%;
-      z-index: 10;
-  }
-
-  }
+}

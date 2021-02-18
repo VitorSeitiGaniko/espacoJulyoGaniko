@@ -1,107 +1,101 @@
+.dayspa_tipo{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+}
 
-  /* Conteúdo */
+.dayspa_tipo::after {
+  content: "";
+  display: block;
+  width: 165px;
+  height: 2px;
+  background: #000000;
+  margin: 0px auto;
+}
 
+.dayspa_conteudo{
+  margin: 160px 0px 100px 0px;  
+}
+
+.dayspa_item{
+  margin: 20px 10px 40px 10px;
+}
+
+.dayspa_item:last-child{
+  margin-left: 11px;
+}
+
+.dayspa_titulo{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.dayspa_imagem{
+  width: 100%;
+  height: 300px;
+  border-radius: 5px 5px 0 0;
+}
+
+.dayspa_texto{
+  margin-top: -5px;
+  background-color: #c9b87d;
+  padding: 20px 25px;
+  border-radius: 0 0 5px 5px;
+  line-height: 20px;
+}  
+
+.dayspa_lista{
+  list-style: disc;
+}
+
+.info_valor_tempo{
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;    
+}
+
+.info_valor_tempo:first-of-type {
+  margin-top: 10px;
+}
+
+.whatsapp{
+  position: fixed;
+  right: 120px;
+  bottom: 50px;
+  width: 10%;
+  border-radius: 15px;
+}
+  
+@media only screen and (min-width: 788px) and (max-width: 979px){
+    
+}
+  
+@media only screen and (max-width: 787px){
   .dayspa_tipo{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 20px;
+    margin-bottom: 30px;
   }
-
-  .dayspa_tipo::after {
-    content: "";
-    display: block;
-    width: 165px;
-    height: 2px;
-    background: #000000;
-    margin: 0px auto;
-  }
-
+  
   .dayspa_conteudo{
-    margin: 160px 0px 100px 0px;  
+    margin: 30px 0 0 0;
   }
 
   .dayspa_item{
-    margin: 20px 10px 40px 10px;
+    margin: 0 0 50px 0 ;
   }
 
   .dayspa_item:last-child{
-    margin-left: 11px;
-  }
-
-  .dayspa_titulo{
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
+    margin-left: 0;
   }
 
   .dayspa_imagem{
-    width: 100%;
-    height: 300px;
-    border-radius: 5px 5px 0 0;
+    height: 250px;
   }
 
-  .dayspa_texto{
-    margin-top: -5px;
-    background-color: #c9b87d;
-    padding: 20px 25px;
-    border-radius: 0 0 5px 5px;
-    line-height: 20px;
-  }  
-
-  .dayspa_lista{
-    list-style: disc;
+  .whatsapp {
+    right: 1px;
+    width: 30%;
+    z-index: 10;
   }
-
-  .info_valor_tempo{
-    font-weight: 700;
-    font-size: 18px;
-    text-align: center;    
-  }
-
-  .info_valor_tempo:first-of-type {
-    margin-top: 10px;
-  }
-
-  .whatsapp{
-    position: fixed;
-    right: 120px;
-    bottom: 50px;
-    width: 10%;
-    border-radius: 15px;
-  }
-  
-  
-  @media only screen and (min-width: 788px) and (max-width: 979px){
-    
-  }
-  
-  @media only screen and (max-width: 787px){
-   
-    .dayspa_tipo{
-      margin-bottom: 30px;
-    }
-  
-    .dayspa_conteudo{
-      margin: 30px 0 0 0;
-    }
-
-    .dayspa_item{
-      margin: 0 0 50px 0 ;
-    }
-
-    .dayspa_item:last-child{
-      margin-left: 0;
-    }
-
-    .dayspa_imagem{
-      height: 250px;
-    }
-
-    .whatsapp {
-      right: 1px;
-      width: 30%;
-      z-index: 10;
-  }
-    
-  }
+}

@@ -1,88 +1,80 @@
+.introducao{
+  padding-top: 160px;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.unidades_titulo{
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.unidades_conteudo{
+  padding: 20px 0;     
+}
+
+.unidades_item{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.unidades_item img{
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  height: 300px;
+}
+
+.unidades_div{
+  background-color: #c9b87d;  
+  margin-top: -5px;
+  border-radius: 0 0 5px 5px;
+  padding: 10px 0;
+}
+
+.unidades_texto{
+  padding: 15px 10px 2px 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;  
+  font-size: 16px;
+}
+
+.unidades_botao{
+  display: block;
+  margin: 10px 140px;
+  background-color: #FFF8DF;
+  border: none;
+  border-radius: 2px;
+  font-size: 12px;
+  padding: 5px 0px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.unidades_botao:hover{
+  color: #c9b87d;
+}  
+    
+@media only screen and (min-width: 788px) and (max-width: 979px){
+  .unidades_item img{
+    height: 260px;
+  }
+}
   
-  /* Conteúdo */
-
+@media only screen and (max-width: 787px){
   .introducao{
-    padding-top: 160px;
-    text-align: center;
-    font-family: 'Poiret One', cursive;
-    font-weight: 700;
-    line-height: 25px;
-  }
-
-  .unidades_titulo{
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-  }
-
-  .unidades_conteudo{
-    padding: 20px 0;     
+    padding-top: 30px;
   }
 
   .unidades_item{
-    margin-top: 20px;
-    margin-left: 50px;
+    margin: 0 0 50px 0;
   }
 
   .unidades_item img{
-    width: 100%;
-    border-radius: 5px 5px 0 0;
-    height: 300px;
-  }
-
-  .unidades_div{
-    background-color: #c9b87d;  
-    margin-top: -5px;
-    border-radius: 0 0 5px 5px;
-    padding: 10px 0;
-  }
-
-  .unidades_texto{
-    padding: 15px 10px 2px 15px;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;  
-    font-size: 16px;
-  }
-
-  .unidades_botao{
-    display: block;
-    margin: 10px auto;
-    background-color: #FFF8DF;
-    border: none;
-    border-radius: 2px;
-    font-size: 12px;
-    padding: 5px 20px;
-    cursor: pointer;
-  }
-
-  .unidades_botao:hover{
-    color: #c9b87d;
+    height: 250px;
   }  
-    
-  @media only screen and (min-width: 788px) and (max-width: 979px){
-    .unidades_item img{
-      height: 260px;
-    }
-
-    
-  }
-  
-  @media only screen and (max-width: 787px){
-    
-  
-    .introducao{
-      padding-top: 30px;
-    }
-
-    .unidades_item{
-      margin: 0 0 50px 0;
-    }
-
-    .unidades_item img{
-      height: 250px;
-    }
-
-   
 }

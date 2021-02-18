@@ -1,106 +1,102 @@
-  /* Conteúdo */
+.espaco{
+  position: relative;
+  top: 117px;  
+  margin-bottom: 120px;
+}
 
+.espaco_titulo{
+  background-color: #bda85e;
+  height: 100%;
+  padding: 35px 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.espaco_texto{
+  line-height: 25px;
+  word-spacing: 5px;
+  margin-left: 10%;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.espaco_imagem{
+  display: block;
+  margin: -75px auto 0;
+  width: 100%;
+}
+
+.espaco_imagem_principal{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.espaco_imagem_meio{
+  width: 100%;
+  position: relative;
+  top: -250px;
+  left: 321px;
+  margin-bottom: -186px;
+}
+
+.ultima_linha_imagens{
+  margin-top: 80px;
+}
+
+.in_company_imagem_ultima{
+  width: 450px;
+  display: block;
+  margin: 30px auto;
+}
+ 
+@media only screen and (min-width: 788px) and (max-width: 979px){
+  .espaco_imagem_meio{
+    left: 256px;
+  }
+}
+  
+@media only screen and (max-width: 787px){
   .espaco{
-    position: relative;
-    top: 117px;  
-    margin-bottom: 120px;
+    top: 0;
+    margin-bottom: 0;
   }
 
   .espaco_titulo{
-    background-color: #bda85e;
-    height: 100%;
-    padding: 35px 0;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
+  }
+
+  .espaco_imagem_principal{
+    width: 100%;
   }
 
   .espaco_texto{
     line-height: 25px;
-    word-spacing: 5px;
-    margin-left: 10%;
-    padding: 50px 0;
-    margin-bottom: 50px;
+    word-spacing: 2px;
+    margin: 0;
+    padding-top: 50px;  
+    font-size: 14px;
   }
 
-  .espaco_imagem{
+  .espaco_imagem {
     display: block;
-    margin: -75px auto 0;
+    margin: 0 0 30px 0;
     width: 100%;
   }
 
-  .espaco_imagem_principal{
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+  .espaco_imagem_meio {        
+    top: 0;
+    left: 0;
+    margin-bottom: 30px;
   }
-
-  .espaco_imagem_meio{
-    width: 100%;
-    position: relative;
-    top: -250px;
-    left: 321px;
-    margin-bottom: -186px;
-  }
-
-  .ultima_linha_imagens{
-    margin-top: 80px;
-  }
-
+  
   .in_company_imagem_ultima{
-    width: 450px;
+    width: 100%;
     display: block;
-    margin: 30px auto;
-  }
-
-  
-  
-  @media only screen and (min-width: 788px) and (max-width: 979px){
-    .espaco_imagem_meio{
-      left: 256px;
-    }
-  }
-  
-  @media only screen and (max-width: 787px){
-    .espaco{
-      top: 0;
-      margin-bottom: 0;
-    }
-
-    .espaco_titulo{
-      font-size: 18px;
-    }
-
-    .espaco_imagem_principal{
-      width: 100%;
-    }
-
-    .espaco_texto{
-      line-height: 25px;
-      word-spacing: 2px;
-      margin: 0;
-      padding-top: 50px;  
-      font-size: 14px;
-    }
-
-    .espaco_imagem {
-      display: block;
-      margin: 0 0 30px 0;
-      width: 100%;
-    }
-
-    .espaco_imagem_meio {        
-      top: 0;
-      left: 0;
-      margin-bottom: 30px;
-    }
-  
-    .in_company_imagem_ultima{
-      width: 100%;
-      display: block;
-      margin: 0 0 30px 0;
-    }  
-  }
+    margin: 0 0 30px 0;
+  }  
+}
