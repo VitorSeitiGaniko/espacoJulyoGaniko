@@ -74,6 +74,10 @@
     height: 250px;
   }
 
+  .servico_botao{
+    margin: 5px 80px;
+  }
+
   .whatsapp {
     right: 1px;
     width: 30%;

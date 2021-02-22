@@ -77,4 +77,8 @@
   .unidades_item img{
     height: 250px;
   }  
+
+  .unidades_botao{
+    margin: 10px 90px;
+  }
 }
