@@ -912,7 +912,7 @@ footer {
   }
 
   .banner_imagem{
-    height: 180px;
+    height: 190px;
   }
 
   .conteudo{
@@ -964,7 +964,7 @@ footer {
 
   .whatsapp {
     right: 1px;      
-    width: 15%;
+    width: 20%;
     z-index: 10;
   }
 
@@ -1194,7 +1194,7 @@ height: 450px;
   margin-top: 10px;
 }
 
-.whatsapp{
+.whatsapp_vale{
   position: fixed;
   right: 120px;
   bottom: 50px;
@@ -1227,9 +1227,10 @@ height: 450px;
     height: 250px;
   }
 
-  .whatsapp {
+  .whatsapp_vale{
     right: 1px;
-    width: 30%;
+    width: 25%;
+    border-radius: 7px;
     z-index: 10;
   }
 }
@@ -1389,7 +1390,7 @@ height: 450px;
   color: #c9b87d;
 }
 
-.whatsapp{
+.whatsapp_vale{
   position: fixed;
   right: 120px;
   bottom: 50px;
@@ -1422,9 +1423,10 @@ height: 450px;
     margin: 5px 80px;
   }
 
-  .whatsapp {
+  .whatsapp_vale{
     right: 1px;
-    width: 30%;
+    width: 25%;
+    border-radius: 7px;
     z-index: 10;
   }
 }

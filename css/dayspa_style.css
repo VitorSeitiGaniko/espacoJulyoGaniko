@@ -64,8 +64,8 @@
   position: fixed;
   right: 120px;
   bottom: 50px;
-  width: 10%;
-  border-radius: 15px;
+  width: 20%;
+  border-radius: 10px;
 }
   
 @media only screen and (min-width: 788px) and (max-width: 979px){
